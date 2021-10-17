@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  apiUrl: 'https://ptx.transportdata.tw/MOTC/v2/Bus',
 };

@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'https://ptx.transportdata.tw/MOTC/v2/Bus',
+  busApiUrl: 'https://ptx.transportdata.tw/MOTC/v2/Bus',
+  tourApiUrl: 'https://ptx.transportdata.tw/MOTC/v2/Tourism',
 };
 
 /*

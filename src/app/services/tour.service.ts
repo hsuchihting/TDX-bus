@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root',
 })
-export class BusService {
-  apiUrl: string = environment.busApiUrl;
+export class TourService {
+  apiUrl: string = environment.tourApiUrl;
   constructor() {}
 }

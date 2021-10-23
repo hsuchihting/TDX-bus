@@ -3,13 +3,16 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": []
+    "types": [],
+    "paths": {
+      "@services/*": ["app/services/*"],
+      "@interface/*": ["app/interface/*"],
+      "@pipe/*": ["app/pipe/*"],
+      "@enum/*": ["app/enum/*"],
+      "@environments/*": ["environments/*"],
+      "@shared": ["app/shared/*"]
+    }
   },
-  "files": [
-    "src/main.ts",
-    "src/polyfills.ts"
-  ],
-  "include": [
-    "src/**/*.d.ts"
-  ]
+  "files": ["src/main.ts", "src/polyfills.ts"],
+  "include": ["src/**/*.d.ts"]
 }

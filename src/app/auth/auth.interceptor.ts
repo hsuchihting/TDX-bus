@@ -29,6 +29,7 @@ export class AuthInterceptor implements HttpInterceptor {
       'Content-Type': contentType || 'application/json',
     };
 
+    //*把原始的 request clone 起來 */
     const req = request.clone({
       setHeaders: {
         ...setHeaders,

@@ -1,6 +1,71 @@
 <div class="w-full">
-  <div class="container mx-auto p-4">
-    <p>Welcome to Taiwan°</p>
+  <div class="container mx-auto">
+    <header>
+      <div class="flex justify-between items-center py-6">
+        <img src="../../../assets/tourism_logo.png" alt="Welcome to Taiwan" />
+        <ul class="flex items-center">
+          <li>
+            <a class="link" href=""
+              ><i class="fas fa-caret-up bg-[#FF1D6C] icon text-2xl"></i>
+              <span class="text text-[#FF1D6C] border-b-2 border-[#FF1D6C]"
+                >台灣景點</span
+              >
+            </a>
+          </li>
+          <li>
+            <a class="link" href=""
+              ><i class="fas fa-square-full fa-xs icon bg-[#FFB72C]"></i>
+              <span class="text text-[#FFB72C] border-b-2 border-[#FFB72C]"
+                >美食住宿</span
+              >
+            </a>
+          </li>
+          <li>
+            <a class="link" href=""
+              ><i class="fas fa-circle fa-xs icon bg-[#007350]"></i>
+              <span class="text text-[#007350] border-b-2 border-[#007350]"
+                >景點交通</span
+              >
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- banner -->
+    <section>
+      <div class="w-full h-[536px] title">
+        <div class="w-[40%] mx-auto py-[10%]">
+          <h1 class="text-white text-[50px] font-black tracking-wide">
+            Welcome to <span class="text-[#FF1D6C]">Taiwan°</span>
+          </h1>
+
+          <div class="text-white flex justify-start">
+            台北、台中、台南、屏東、宜蘭……遊遍台灣
+          </div>
+          <form class="w-full">
+            <div class="flex my-2">
+              <input type="text" class="w-full rounded-md outline-none mr-2" />
+              <button class="bg-[#FF1D6C] w-[40px] rounded-md">
+                <i class="fas fa-search text-white"></i>
+              </button>
+            </div>
+            <div class="flex items-center my-2">
+              <select name="" id="" class="w-[45%] rounded-md outline-none mr-2">
+                <option value=""></option>
+              </select>
+
+              <select name="" id="" class="w-[45%] rounded-md outline-none mr-2">
+                <option value=""></option>
+              </select>
+              <button class="bg-[#FFB72C] w-[40px] h-[40px] rounded-md">
+                <i class="fas fa-map-marker-alt text-white"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
   </div>
   <app-tour-footer></app-tour-footer>
 </div>

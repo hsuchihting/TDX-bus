@@ -1,0 +1,21 @@
+.icon {
+  @apply w-8 h-8 rounded-full text-white flex justify-center items-center mr-2;
+}
+.link {
+  @apply flex items-center pl-4 pr-6 py-2;
+}
+.text {
+  @apply text-sm tracking-wide;
+}
+
+.title {
+  background-image: url("../../../assets/banner_bg.png");
+  background-position: center center;
+  background-size: cover;
+  border: 30px solid #fff;
+  box-shadow: 0px 0px 5px #333;
+}
+
+h1 {
+  text-shadow: #333 0.1rem 0.1rem 0.2em;
+}
